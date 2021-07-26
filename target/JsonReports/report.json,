@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-24T13:37:43.100Z",
+        "line": 3,
+        "name": "Check login with valid credentials",
+        "description": "",
+        "id": "demo-voor-opdracht-bij-vopak;check-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2033000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login page is visible",
+            "match": {
+              "location": "TestCode.MyStepdefs.loginPageIsVisible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "TestCode.MyStepdefs.userIsOnLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on button",
+            "match": {
+              "location": "TestCode.MyStepdefs.clicksOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigated to home page",
+            "match": {
+              "location": "TestCode.MyStepdefs.userIsNavigatedToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demo voor opdracht bij Vopak",
+    "description": "",
+    "id": "demo-voor-opdracht-bij-vopak",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VopalDemo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-24T13:37:43.212Z",
+        "line": 3,
+        "name": "Check login with valid credentials",
+        "description": "",
+        "id": "flow-to-test-login-functionality;check-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 191000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login page is visible",
+            "match": {
+              "location": "TestCode.MyStepdefs.loginPageIsVisible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 568000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "TestCode.MyStepdefs.userIsOnLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 302000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on button",
+            "match": {
+              "location": "TestCode.MyStepdefs.clicksOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2750000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigated to home page",
+            "match": {
+              "location": "TestCode.MyStepdefs.userIsNavigatedToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flow to test login functionality",
+    "description": "",
+    "id": "flow-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
